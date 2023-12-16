@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#crousalid {
+  max-height: 500px;
+}
+
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.ank {
+  border: 1px solid #000; 
+  border-radius: 20px;
+  width: 10px;
+}
+
+.navbar {
+  background: linear-gradient(45deg, #87CEFA, #90EE90);
+}
+
+.nav-link{
+
+}
