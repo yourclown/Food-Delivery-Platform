@@ -4,7 +4,7 @@ import { BrowserRouter as Link, useNavigate } from "react-router-dom";
 import Badge from 'react-bootstrap/Badge';
 import Model from "./Model";
 import Cart from "../Screens/Cart";
-import { useCart, useDispatchCart } from "./ContextReducer";
+import { useCart } from "./ContextReducer";
 
 
 
