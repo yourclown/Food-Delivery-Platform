@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
+import { BrowserRouter as Link, useNavigate } from "react-router-dom";
 import Badge from 'react-bootstrap/Badge';
 import Model from "./Model";
 import Cart from "../Screens/Cart";
@@ -12,7 +12,6 @@ import { useCart, useDispatchCart } from "./ContextReducer";
 export default function NavBar() {
 
 const data=useCart();
-const dispath=useDispatchCart();
   const [cartView, setcartView] = useState(false);
   const navigate = useNavigate();
   const handlelogout = () => {
